@@ -1,11 +1,11 @@
 {
-  "name": "parcel-sandbox",
+  "name": "@ewolfe/code-sandbox",
   "version": "1.0.0",
   "description": "Simple Parcel Sandbox",
-  "main": "index.html",
+  "main": "dist/index.js",
   "scripts": {
     "start": "parcel index.html --open",
-    "build": "parcel build index.html"
+    "build": "parcel build src/index.js --out-dir dist"
   },
   "dependencies": {},
   "devDependencies": {
