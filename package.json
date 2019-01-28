@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "Simple Parcel Sandbox",
   "main": "dist/index.js",
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
     "start": "parcel index.html --open",
     "build": "parcel build src/index.js --out-dir dist"
