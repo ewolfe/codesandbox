@@ -1,5 +1,5 @@
 {
-  "name": "@ewolfe/code-sandbox",
+  "name": "ewolfe-codesandbox",
   "version": "1.0.0",
   "description": "Simple Parcel Sandbox",
   "main": "dist/index.js",
@@ -14,5 +14,6 @@
   "devDependencies": {
     "@babel/core": "7.2.0",
     "parcel-bundler": "^1.6.1"
-  }
+  },
+  "keywords": []
 }
